@@ -1,0 +1,27 @@
+{
+  "capabilities":
+  [
+    {
+      "browserName" : "firefox",
+      "platform" : "WINDOWS",
+      "maxInstances":2
+    },
+    {
+      "browserName" : "internet explorer",
+      "platform":"WINDOWS",
+      "maxInstances":2
+    }
+  ],
+  "configuration":
+  {
+    "maxSession": 2,
+    "port": 5555,
+    "timeout": 30000,
+    "register": true,
+    "registerCycle": 5000,
+    "hubPort": 4444,
+    "hubHost": localhost,
+    "Dwebdriver.id.driver=xxxxxxx": ""
+
+  }
+}
